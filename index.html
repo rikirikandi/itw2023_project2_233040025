@@ -4,15 +4,19 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Company Profil</title>
+    <!-- Link Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light position-fixed w-100" style="background-color: rgb(222, 237, 246)">
+    <nav class="navbar navbar-expand-lg navbar-light position-fixed w-100" style="background-color: #a3acb2">
       <div class="container">
-        <a class="navbar-brand fw-bold" style="font-family: mv boli" href="#">ELKOMTEK</a>
+        <a class="navbar-brand fw-bold" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" href="#">ELKOMTEK.</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,16 +27,16 @@
               <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link" href="#layanan">About Us</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link" href="#produk">Layanan</a>
+              <a class="nav-link" href="#layanan">Layanan</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link" href="#galeri">Galeri</a>
+              <a class="nav-link" href="#gallery">Gallery</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
           <div>
@@ -44,12 +48,192 @@
         </div>
       </div>
     </nav>
+    <!-- Home -->
+    <section class="hal1" id="home">
+      <div class="container-fluit banner">
+        <div class="container banner-content col-lg-6">
+          <div class="text-center">
+            <p class="fs-1 fw-bold">Selamat Datang di Elkomtek</p>
+            <h4>Reparasi, Servic, & Jual Beli</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Home -->
 
-    <section class="hero">
-      <h1>Welcome To Elkomtek</h1>
-      <p>Reparasi, Service, & Jual-Beli</p>
+    <!-- About -->
+    <section class="hal2" id="about">
+        <div class="container">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <img src="img/img2.jpg" class="img-fluid rounded-start" alt="..." />
+              </div>
+              <div class="textt col-md-7">
+                <div class="card-body">
+                  <h2 class="rk">Tentang Kami</h2>
+                  <p class="card-text">
+                    "Kami adalah toko Elektronik dan Komputer berdiri independen yang berlokasi berdekatan dengan pusat kota. Kami bangga dapat menjadi salah satu pilihan favorit warga lokal yang mencari barang elektronik, Smarthpone, dan
+                    Komputer Bekas Berkualitas Harga Terjangkau untuk menunjang pekerjaan anda di kantor ataupun di sekolah atau ingin memesan prodak yang akan langsung dikirim ke rumah pelanggan. Tersedia Rakit PC, Install Softwere dan
+                    perawatan komputer setiap hari mulai tengah hari sampai waktunya tutup. Ayo kunjungi kami sekarang!"
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Layanan -->
+    <section class="hal3" id="layanan">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2>Layanan Kami</h2>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-4 text-center">
+            <div class="card-layanan">
+              <i class="bi bi-gear"></i>
+              <h3 class="mt-3">Reparasi</h3>
+              <p class="">
+                Memperbaiki komponen yang ruksak dari keseluruhan komponen sistem itu sendiri yang awalnya kurang bagus menjadi bagus dan yang bagus menjadi lebih baik. Adapaun jenis layananya yaitu meliputi dari segi Hardwere dan Softwere
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <div class="card-layanan">
+              <i class="bi bi-tools"></i>
+              <h3 class="mt-3">Servis</h3>
+              <p class="">
+                Memperbaiki keseluruhan sistem yang tidak berjalan dan terhubung satu sama lain sehingga menyebabkan terjadinya kerusakan beberapa komponen itu sendiri.Adapun jenis service itu yaitu kami memperbaiki leptop, smartphone dan
+                cpu yang ruksak total.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <div class="card-layanan">
+              <i class="bi bi-bag"></i>
+              <h3 class="mt-3">Jual&Beli</h3>
+              <p class="">Menyediakan jual beli smartphone & laptop bekas yang harganya terjangkau dan kualitasnya aman & bergaransi.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="hal4" id="gallery">
+      <div class="container">
+        <div class="row text-center pt-5">
+          <div class="col">
+            <h2 class="rr">Galeri</h2>
+          </div>
+        </div>
+        
+        <div class="row d-flex justify-content-evenly">
+          <div class="col-md-4 mb-3 pke">
+            <div class="card">
+              <img src="img/img4.jpg" class="card-img-top" alt="...">
+              
+            </div>
+          </div>
+          <div class="col-md-4 mb-3 pke">
+            <div class="card">
+              <img src="img/img5.jpg" class="card-img-top" alt="...">
+              
+            </div>
+          </div>
+          <div class="col-md-4 mb-3 pke">
+            <div class="card">
+              <img src="img/img6.jpg" class="card-img-top" alt="...">
+              
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card-1">
+              <img src="img/img7.jpg" class="card-img-top" alt="...">
+              
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card-2">
+              <img src="img/img8.jpeg" class="card-img-top" alt="...">
+              
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Akhir Gallery -->
+
+    <!-- Contact -->
+      <section class="hal5" id="contact" style="background-color: #cbcece;"> 
+
+        <div class="container-fluit py-5">
+          <div class="container">
+            <div class="row">
+            <div class="col-md-6">
+              <h3>Butuh Servis Komputer? <br />Silahkan hubungi kami atau Datang ke toko kami!!!</h3>
+              <div class="kontak">
+                <h6>Kontak</h6>
+
+                <div class="icon mb-1">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  <a href="https://goo.gl/maps/2rFAnRwzY9mFzaaj8">Depan Apotek Koja, Jl. Terusan Pasirkoja, RT07/RW05, Kec. Bojongloa Kaler, Kota Bandung, Jawa Barat 40232</a>
+                </div>
+
+                <div class="icon mb-1">
+                  <i class="bi bi-telephone"></i>
+                  <a href="https://wa.me/6289638988403">+62 896-3898-8403</a>
+                </div>
+
+                <div class="icon mb-1">
+                  <i class="bi bi-envelope"></i>
+                  <a href="">elkomtekbandung@gmail.com</a>
+                </div>
+
+                <h6>Sosial Media</h6>
+                <div class="icon mb-1">
+                  <i class="bi bi-instagram"></i>
+                  <a href="https://www.instagram.com/aseprochman_laskar">aseprochman_laskar</a>
+                </div>
+
+                <div class="icon mb-1">
+                  <i class="bi bi-facebook"></i>
+                  <a href="https://www.facebook.com/balackerz.pascore">Asep Rochman</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-contact w-100">
+                <form action="">
+                  <h2 class="text-center">Ada pertayaan?</h2>
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
+                    <label for="floatingInput">Masukan email anda</label>
+                  </div>
+                  
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" />
+                    <label for="floatingInput">Pertayaan</label>
+                  </div>
+                  
+                  <button type="submit" class="button-kontak">Kirim</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
